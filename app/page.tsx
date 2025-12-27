@@ -1,4 +1,3 @@
-import { BlogPosts } from 'app/components/posts'
 
 export default function Page() {
   return (
@@ -18,12 +17,6 @@ export default function Page() {
           <li>🚀 Funfact n1</li>
           <li>🎓 Funfact n2</li>
         </ul>
-      </div>
-      <h2 className="mt-12 mb-4 text-2xl font-semibold tracking-tighter">
-        A quick look at my latest blog posts
-      </h2>
-      <div className="my-8">
-        <BlogPosts limit={3} />
       </div>
     </section>
   )
