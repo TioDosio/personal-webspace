@@ -11,5 +11,8 @@
       "src": "/(.*)",
       "dest": "dist/index.js"
     }
-  ]
+  ],
+  "env": {
+    "NPM_CONFIG_CHECK_FILES": "false"
+  }
 }
